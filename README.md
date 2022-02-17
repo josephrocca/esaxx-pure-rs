@@ -13,7 +13,7 @@ Usage
 
 ```rust
 let string = "abracadabra";
-let suffix = esaxx_pure_rs::suffix(string).unwrap();
+let suffix = esaxx_pure_rs::suffix_rs(string).unwrap();
 let chars: Vec<_> = string.chars().collect();
 let mut iter = suffix.iter();
 assert_eq!(iter.next().unwrap(), (&chars[..4], 2)); // abra
